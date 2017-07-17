@@ -8,20 +8,20 @@
 <script type="text/javascript">
 
 	/* 로그인 체크 함수 */
-	/* function login(form){
+	function login(form){
 		
-		var email = form.email.value;
+		var userid = form.userid.value;
 		var pwd = form.pwd.value;
 		
-		if(email == null || email.trim() == ""){
-			alert("이메일을 입력해주세요.");
+		if(userid == null || userid.trim() == ""){
+			alert("아이디를 입력해주세요.");
 		}else if(pwd == null || pwd.trim() == ""){
 			alert("비밀번호를 입력해주세요.");
 		}else{
 			form.submit();
 		}
 		
-	} */
+	}
 			
 </script>
 
@@ -38,31 +38,31 @@
 				
 				<span style="color:#C5C5C5; font-size: 5em;">W e l c o m e !</span>
 				<p style="color:#C5C5C5; font-size: 1em;">
-					중고매니아에 가입한 ID가 있으시면<br />
+					<font color="white">Delfines</font>에 가입한 ID가 있으시면<br />
 					<font color="white">로그인</font>을 해주세요!<br />
 					만약 ID가 없다면 <font color="white">회원가입</font>을 해주세요!
 				</p>
 				
 				<br /><br />
 				
-				<form id="loginForm" method="post" action="loginCheck">
+				<form id="loginForm" method="post" action="./signInPro.jsp">
 				
 					<!-- name과 sns는 facebook으로 로그인 했을 때만 값이 존재한다. -->
 					<input type="hidden" name="name">
 					<input type="hidden" name="sns">
 				
-					<div style="background-color:#478637; width: 30em; height: 3em; margin: 0 auto; border-radius: 3em;">
-						<span style="width: 30%; height: 2em; float: left; font-size: 1.5em; padding-top: 7px;">Email</span>
-						<input type="text" name="email" id="email"
-							style="width: 70%; height: 3em; color: black;
+					<div style="background-color:#478637; width: 30em; height: 3.25em; margin: 0 auto; border-radius: 3em;">
+						<span style="width: 30%; height: 2em; float: left; font-size: 1.25em; padding-top: 7px;">ID</span>
+						<input type="text" name="userid" id="userid"
+							style="width: 70%; height: 3.25em; color: black;
 								border-bottom-right-radius: 3em; border-top-right-radius: 3em;" />
 					</div>	
 					<br />
 					
-					<div style="background-color:#db6450; width: 30em; height: 3em; margin: 0 auto; border-radius: 3em;">
-						<span style="width: 30%; height: 2em; float: left; font-size: 1.5em; padding-top: 7px;">Password</span>
+					<div style="background-color:#db6450; width: 30em; height: 3.25em; margin: 0 auto; border-radius: 3em;">
+						<span style="width: 30%; height: 2em; float: left; font-size: 1.25em; padding-top: 7px;">Password</span>
 						<input type="password" name="pwd" id="pwd"
-							style="width: 70%; height: 3em; color: black;
+							style="width: 70%; height: 3.25em; color: black;
 								border-bottom-right-radius: 3em; border-top-right-radius: 3em;" />
 					</div>
 					<br />

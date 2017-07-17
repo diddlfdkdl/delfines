@@ -86,7 +86,7 @@
 </div>
 
 <!-- Container (The Band Section) -->
-<div id="newItem" class="container text-center">
+<div id="greeting" class="container text-center">
   <h3>THE BAND</h3>
   <p><em>We love music!</em></p>
   <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -129,7 +129,7 @@
 </div>
 
 <!-- Container (TOUR Section) -->
-<div id="tour" class="bg-1">
+<div id="new" class="bg-1">
   <div class="container">
     <h3 class="text-center">TOUR DATES</h3>
     <p class="text-center">Lorem ipsum we'll play you some music.<br> Remember to book your tickets!</p>
@@ -204,7 +204,7 @@
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container">
+<div id="FAQ" class="container">
   <h3 class="text-center">Contact</h3>
   <p class="text-center"><em>We love our fans!</em></p>
 
