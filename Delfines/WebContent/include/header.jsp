@@ -40,9 +40,9 @@
 			
 			<%	String isIndex = (String)request.getAttribute("isIndex");
 				if(isIndex != null){%>
-					<li><a href="#newItem">Greeting</a></li>
-					<li><a href="#tour">New</a></li>
-					<li><a href="#contact">FAQ</a></li>
+					<li><a href="#greeting">Greeting</a></li>
+					<li><a href="#new">New</a></li>
+					<li><a href="#FAQ">FAQ</a></li>
 			<%	}%>
 			<li class="dropdown"><a class="dropdown-toggle"
 				data-toggle="dropdown" href="#">Item<span class="caret"></span></a>
