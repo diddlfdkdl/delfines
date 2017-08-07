@@ -1,4 +1,3 @@
-drop table freeboard;
 drop table member;
 
 create table member(
